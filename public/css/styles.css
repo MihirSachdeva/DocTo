@@ -1,0 +1,268 @@
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+  font-family: 'Product Sans';
+}
+
+.table th, .table td {
+  border-top: none !important;
+}
+
+.navbar-brand {
+  font-family: 'Vidaloka' !important;
+}
+
+.navbar-light {
+  background-color: rgb(150, 150, 150, 0.3);
+  backdrop-filter: blur(20px);
+}
+
+.gradient1 {
+  background-color: #F4D03F;
+  background: linear-gradient(90deg, #F4D03F 0%, #16A085 100%);
+}
+
+.gradient2 {
+  background: #70e1f5;
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+}
+
+.gradient3 {
+  background: #D38312;
+  background: linear-gradient(to right, #A83279, #D38312);
+}
+
+.gradient4 {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.gradient5 {
+  background: #EECDA3;
+  background: linear-gradient(to right, #EF629F, #EECDA3);
+}
+
+.gradient6 {
+  background: #00C9FF;
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+}
+
+nav .fas {
+  color: #303030;
+}
+
+.navbar {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav .fas:hover {
+  color: #000000;
+  text-shadow: 0;
+}
+
+a .fas {
+  text-shadow: 1px 1px 2px gray;
+}
+
+.navbar-brand {
+  font-family: 'Product Sans';
+  font-size: 45px;
+  text-shadow: 1px 1px 2px gray;
+  margin: auto;
+  position: relative;
+  left: 100px;
+}
+
+.btn-group span {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(80, 80, 80, 0.7);
+  backdrop-filter: blur(20px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a,
+.sidenav p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#grad1 {
+  height: auto;
+}
+
+#course-name {
+  font-size: 6rem;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px gray;
+}
+
+#course-full {
+  font-size: 2rem;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px gray;
+  position: relative;
+  bottom: 15px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow-x: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(9px);
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a,
+.overlay p {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtnOverlay {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtnOverlay {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.files-table {
+  box-shadow: 0px 2px 25px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 16px;
+  background-color: rgb(150, 150, 150, 0.3);
+  backdrop-filter: blur(20px);
+}
+
+.container {
+  position: relative;
+  width: 90%;
+}
+
+table {
+  font-size: 2rem;
+  text-align: center;
+}
+
+table:hover {
+  transition: 0.3s;
+}
+
+.leaderboard {
+  width: 80%;
+  margin: auto;
+}
+
+.leaderboard td,
+.leaderboard th {
+  color: rgb(190, 190, 190);
+  border: 0;
+}
+
+.leaderboard td:first-child,
+.leaderboard th:first-child {
+  text-align: left;
+}
+
+.footer {
+  height: 40%;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 100%;
+  margin: auto;
+}
+
+.footer i {
+  color: rgb(60, 60, 60, 0.7);
+  font-size: 3rem;
+}
+
+.footer i:hover {
+  color: rgb(200, 200, 200);
+  font-size: 3rem;
+  transition: 0.3s;
+  text-shadow: none;
+}
+
+.footer p {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+#page-container {
+  position: relative;
+  min-height: 93vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
