@@ -7,7 +7,7 @@ Maintaining prescriptions and medical history has always been a pain when you ha
 
 The prescriptions are grouped based on the patient they belong to. As a future project, I look forward to integrating the app with a functioning Login page for different doctors and family members, and again grouping the prescriptions for a patient based on the doctor who prescribed them. Also, a feature to add new family members can also be a future endevour :) 
 
-To run the app, simply head over to pure-ravine-95430.herokuapp.com
+To run the app, simply head over to https://pure-ravine-95430.herokuapp.com
 
 OR
 
